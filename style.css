@@ -1,0 +1,58 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 25px;
+}
+ul{
+    list-style-type: null;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    display:inline;
+    margin-right: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#products{
+    display:flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+.product{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding:10px;
+    margin:10px;
+}
+.product p{
+    color:black;
+    font-weight: bold;
+}
+button{
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: aqua;
+    color:black;
+}
+
